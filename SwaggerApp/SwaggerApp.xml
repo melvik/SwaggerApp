@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerApp</name>
+    </assembly>
+    <members>
+        <member name="T:SwaggerApp.Controllers.ValuesController">
+            <summary>
+            Values Controller
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
+        </member>
+        <member name="M:SwaggerApp.Controllers.ValuesController.Get">
+            <summary>
+            a nice description for list of values
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerApp.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Gets the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerApp.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            Posts the specified value.
+            </summary>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:SwaggerApp.Controllers.ValuesController.Put(System.Int32,System.String)">
+            <summary>
+            Puts the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:SwaggerApp.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            Deletes the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+        </member>
+        <member name="T:SwaggerApp.Startup">
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="M:SwaggerApp.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SwaggerApp.Startup"/> class.
+            </summary>
+            <param name="configuration">The configuration.</param>
+        </member>
+        <member name="P:SwaggerApp.Startup.Configuration">
+            <summary>
+            Gets the configuration.
+            </summary>
+            <value>
+            The configuration.
+            </value>
+        </member>
+        <member name="M:SwaggerApp.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>Configures the services.</summary>
+            <param name="services">The services.</param>
+        </member>
+        <member name="M:SwaggerApp.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>Configures the specified application.</summary>
+            <param name="app">The application.</param>
+            <param name="env">The env.</param>
+        </member>
+    </members>
+</doc>
